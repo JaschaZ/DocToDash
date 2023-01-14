@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #19543E;
+  color: #13464a;
   background-color: #e6f9ff
 }
 
@@ -216,6 +216,7 @@ a:focus {
 
 .carousel-inner {
   margin-top:300px;
+  color: #13464a; 
 }
 
 /*
