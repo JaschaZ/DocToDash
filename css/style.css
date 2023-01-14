@@ -399,6 +399,13 @@ div.w-100pc.md-w-33pc.p-10 {
   text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .p-0.md-p-5 {
+    max-width:100%;
+    overflow:hidden;
+  }
+}
+
 /* end who we are section */ 
 
 
@@ -512,6 +519,12 @@ div.w-100pc.md-w-33pc.p-10 {
   justify-content: space-between;
   width: 80px;
   margin: 30px auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .info_section {
+    min-height:500px;
+  }
 }
 
 /* end info section */
