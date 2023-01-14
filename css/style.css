@@ -4,7 +4,9 @@ body {
   background-color: #E0F7FA
 }
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 h1,
 h2,
@@ -286,7 +288,7 @@ a:focus {
 }
 
 .practice_box:hover .practice_img-box {
-  background-color: #f5fffa;
+  background-color: #E0F9E6;
 }
 
 .practice_img-box {
@@ -353,12 +355,13 @@ a:focus {
   content: "";
   width: 40%;
   height: 100%;
-  background-image: url(../images/Computer.png);
+  background-image: url(../images/Special.png);
   position: absolute;
   top: 0;
   right: 0;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: left top -230px;
 }
 
 /* end welcome section */
