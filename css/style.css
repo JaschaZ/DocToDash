@@ -386,19 +386,16 @@ section.p-0.md-p-5 {
   width: 100%;
   margin: 0 auto;
   align-items: center;
-  justify-content: center;
 }
 
 a.block.no-underline.p-5 br-8.hover-bg-indigo-lightest-10.hover-scale-up-1.ease-300 {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 div.w-100pc.md-w-33pc.p-10 {
   display: flex;
   align-items: center;
-  justify-content: center;
   text-align: center;
 }
 
@@ -459,6 +456,8 @@ div.w-100pc.md-w-33pc.p-10 {
   padding-bottom: 1px;
   color: #fff;
   background-color: #2a2a2c;
+  display: flexible;
+  psition: relative;
 }
 
 .info_logo h2 {
