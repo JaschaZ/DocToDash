@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #19543E;
-  background-color: #E0F7FA
+  background-color: #e6f9ff
 }
 
 html {
@@ -78,6 +78,7 @@ h4 {
 /*header section*/
 .top_container {
   font-family: 'Poppins', sans-serif;
+  background-color: #e6f9ff;
 }
 
 .header_section {}
@@ -132,7 +133,7 @@ a:focus {
 .navbar-brand,
 .navbar-brand:hover {
   font-size: 30px;
-  color: #f5fffa;
+  color: #19543E;
   font-weight: bold;
 }
 
@@ -265,7 +266,12 @@ a:focus {
 
 /* end about section */
 
-/* practice section */
+/* Key Features */
+
+section.practice_section.layout_padding {
+  background-color: #e6f9ff;
+}
+
 .practice_container {
   display: flex;
   justify-content: center;
@@ -326,9 +332,9 @@ a:focus {
 
 
 
-/* end Practice section */
+/* end key features section */
 
-/* welcome section */
+/* What makes us special */
 .welcome_section {
 
   background-color: #E0F9E6;
@@ -372,6 +378,7 @@ section.p-0.md-p-5 {
   height: 100vh;
   margin: auto;
   display: flex;
+  background-color: #e6f9ff;
 }
 
 .who-are-we {
@@ -396,6 +403,7 @@ div.w-100pc.md-w-33pc.p-10 {
 }
 
 /* end who we are section */ 
+
 
 /* contact section */
 .contact_section .col-md-6 {
@@ -443,9 +451,8 @@ div.w-100pc.md-w-33pc.p-10 {
   margin-left: 2.5%;
 }
 
-
-
 /* end contact section */
+
 /* info section */
 .info_section {
   padding-top: 100px;
