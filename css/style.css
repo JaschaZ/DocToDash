@@ -79,7 +79,7 @@ h4 {
 .top_container {
   font-family: 'Poppins', sans-serif;
   background-color: #e6f9ff;
-   background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(/images/background.jpeg);
+  background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(/images/Hintergrundoption_6.jpeg);
   background-size: cover;
   background-position: center; 
 }
