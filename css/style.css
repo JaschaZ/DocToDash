@@ -338,34 +338,63 @@ section.practice_section.layout_padding {
   color: #19543E;
   font-weight: bold;
 }
-
-
-
-
 /* end key features section */
+
 
 /* What makes us special */
 .welcome_section {
-
   background-color: #E0F9E6;
 }
 
-.welcome_container {
-  padding: 100px 0;
+.special_container{
+  width: 100%;
 }
 
-.welcome_container>* {
-  margin-bottom: 35px;
+.comparison_container {
+  width:100%;
+  padding: 100px 10%;
 }
 
-.welcome_container h4 {
-  font-weight: normal;
+.comparison_title {
+
 }
 
-.welcome_container h4,
-.welcome_container p {
-  font-family: 'Poppins', sans-serif;
+.comparison_table {
+  height: 100%;
+  width: 100%;
 }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 0px solid #ddd;
+  background-color: inherit;
+  font-size: 17px;
+}
+
+/* Style table headers and table data */
+th, td {
+  text-align: center;
+  padding: 16px;
+}
+
+th:first-child, td:first-child {
+  text-align: left;
+}
+
+/* Style table rows */
+tr {
+  border: none;
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-remove {
+  color: red;
+} 
 
 .welcome_section::before {
   content: "";
@@ -379,8 +408,8 @@ section.practice_section.layout_padding {
   background-size: cover;
   background-position: left top -230px;
 }
+/*End comparison table*/ 
 
-/* end welcome section */
 
 /* Begin Who we are section */
 
