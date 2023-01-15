@@ -6,6 +6,8 @@ body {
 
 html {
   scroll-behavior: smooth;
+  scroll-behavior-timing-function: ease-in-out;
+  scroll-behavior-duration: 2s; 
 }
 
 h1,
@@ -386,14 +388,20 @@ section.p-0.md-p-5 {
   height: 100vh;
   margin: auto;
   display: flex;
+  position: relative;
   background-color: #e6f9ff;
 }
 
 .who-are-we {
   display: flex;
-  width: 100%;
-  margin: 0 auto;
-  align-items: center;
+  width: 50%;
+  margin-top: 30px;
+  align-items: top;
+  
+}
+
+.who.aos-init.aos-animate {
+  text-align: center;
 }
 
 a.block.no-underline.p-5 br-8.hover-bg-indigo-lightest-10.hover-scale-up-1.ease-300 {
@@ -401,11 +409,51 @@ a.block.no-underline.p-5 br-8.hover-bg-indigo-lightest-10.hover-scale-up-1.ease-
   align-items: center;
 }
 
+.image_overlay {
+  position: relative;
+  width: 100%;
+}
+
+.w100pc.aos-init.aos-animate {
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  align-items: center;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image_overlay:hover .w-100pc.aos-init.aos-animate {
+  opacity: 0.2;
+}
+
+.image_overlay:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: #13464a;
+  font-size: 20px;
+}
+
 div.w-100pc.md-w-33pc.p-10 {
   display: flex;
   align-items: center;
   text-align: center;
 }
+
+
 
 @media only screen and (max-width: 600px) {
   .p-0.md-p-5 {
@@ -525,7 +573,7 @@ div.w-100pc.md-w-33pc.p-10 {
 .info_social {
   display: flex;
   justify-content: space-between;
-  width: 80px;
+  width: 120px;
   margin: 30px auto;
 }
 
