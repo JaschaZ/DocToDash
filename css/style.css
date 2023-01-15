@@ -229,7 +229,7 @@ a:focus {
 }
 
 .name {
-  width: 95%;
+  padding: 10px;
 }
 
 .carousel-inner {
