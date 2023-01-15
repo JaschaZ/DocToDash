@@ -15,6 +15,11 @@ h2,
 h3,
 h4 {
   font-weight: bold;
+  color: #13464a;
+}
+
+p {
+  color: #13464a;
 }
 
 .layout_padding {
@@ -515,6 +520,7 @@ div.w-100pc.md-w-33pc.p-10 {
   color: #19543E;
   font-family: 'Poppins', sans-serif;
 }
+
 
 .info_section .col-md-4 {
   padding: 0 30px;
