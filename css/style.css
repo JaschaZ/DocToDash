@@ -424,6 +424,7 @@ section.p-0.md-p-5 {
 .team-container {
   display: flex;
   justify-content: center;
+  overflow: auto;
 }
 
 .who-are-we {
