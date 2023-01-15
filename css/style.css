@@ -85,6 +85,7 @@ h4 {
   background-size: cover;
   background-position: center; 
   height: 100vh;
+  position: relative;
 }
 
 .header_section {
@@ -216,8 +217,13 @@ a:focus {
   margin: 35px 0 50px 0;
 }
 
+.hero_detail-box.aos-init.aos-animate {
+  position: absolute;
+  top: 70%;
+  left: 40%;
+}
+
 .carousel-inner {
-  padding-top: 400px;
   color: #13464a; 
 }
 
