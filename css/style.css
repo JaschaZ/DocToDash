@@ -217,7 +217,7 @@ a:focus {
 }
 
 .carousel-inner {
-  margin-top: 400px;
+  padding-top: 400px;
   color: #13464a; 
 }
 
