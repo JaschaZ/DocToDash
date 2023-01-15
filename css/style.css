@@ -419,6 +419,7 @@ section.p-0.md-p-5 {
   min-height: 100vh;
   background-color: #e6f9ff;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .team-container {
