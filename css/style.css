@@ -418,7 +418,6 @@ section.p-0.md-p-5 {
   height: 100vh;
   margin: auto;
   display: flex;
-  position: relative;
   background-color: #e6f9ff;
 }
 
@@ -549,7 +548,7 @@ div.w-100pc.md-w-33pc.p-10 {
   padding-bottom: 1px;
   color: #fff;
   background-color: #2a2a2c;
-  display: flexible;
+  display: flex;
   position: relative;
 }
 
