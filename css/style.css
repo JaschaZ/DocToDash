@@ -84,7 +84,7 @@ h4 {
   background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(/images/Hintergrundoption_6.jpeg);
   background-size: cover;
   background-position: center; 
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .header_section {
