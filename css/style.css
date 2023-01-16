@@ -545,13 +545,13 @@ div.w-100pc.md-w-33pc.p-10 {
 
 @media screen and (max-width: 500px) {
   .contact {
-    font-size: 8px;
+    font-size: 7px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .contact {
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 
