@@ -1,5 +1,5 @@
 let animationStarted = false;
-const observedElement = document.querySelector('.typewriter-container');
+const observedElement = document.querySelector('.typewrite');
 const observer = new IntersectionObserver((entries) => {
   if (entries[0].isIntersecting && !animationStarted) {
     animationStarted = true;
