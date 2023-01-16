@@ -543,6 +543,12 @@ div.w-100pc.md-w-33pc.p-10 {
   border-right: 0.08em solid #13464a
 }
 
+@media screen and (max-width: 500px) {
+  .contact {
+    font-size: 8px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .contact {
     font-size: 10px;
