@@ -515,9 +515,10 @@ div.w-100pc.md-w-33pc.p-10 {
 
 @media screen and (max-width: 500px) {
   .text {
-    font-size: 12px;
+    font-size: 7px;
   }
-} 
+}
+
 
 /* end who we are section */ 
 
