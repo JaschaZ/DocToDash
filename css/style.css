@@ -18,6 +18,7 @@ h4 {
   color: #13464a;
 }
 
+
 p.solid {
   border-style: solid;
   border-color: #ffffff
@@ -535,13 +536,18 @@ div.w-100pc.md-w-33pc.p-10 {
 }
 
 .typewrite {
-  font-size: 4rem;
+  font-size: 4em;
 }
 
 .wrap {
   border-right: 0.08em solid #13464a
 }
 
+@media screen and (max-width: 600px) {
+  .contact {
+    font-size: 10px;
+  }
+}
 
 /*End contact Section*/
 
