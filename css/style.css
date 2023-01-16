@@ -530,11 +530,10 @@ div.w-100pc.md-w-33pc.p-10 {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 .typewrite {
-  font-size: 4em;
+  font-size: 4rem;
 }
 
 .wrap {
