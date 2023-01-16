@@ -1,3 +1,20 @@
+const observedElement = document.querySelector('.typewriter-container');
+const observer = new IntersectionObserver((entries) => {
+  if (entries[0].isIntersecting) {
+    var elements = document.getElementsByClassName('typewrite');
+    for (var i=0; i<elements.length; i++) {
+      var toRotate = elements[i].getAttribute('data-type');
+      var period = elements[i].getAttribute('data-period');
+      if (toRotate) {
+        new TxtType(elements[i], JSON.parse(toRotate), period);
+      }
+    }
+    observer.unobserve(observedElement);
+  }
+});
+observer.observe(observedElement);
+
+
 
 
 var TxtType = function(el, toRotate, period) {
@@ -10,9 +27,6 @@ var TxtType = function(el, toRotate, period) {
     this.isDeleting = false;
     this.stop();
 };
-
-
-
 
 
 
@@ -53,13 +67,9 @@ TxtType.prototype.tick = function() {
     }, delta);
 };
 
-window.onload = function() {
-    var elements = document.getElementsByClassName('typewrite');
-    for (var i=0; i<elements.length; i++) {
-        var toRotate = elements[i].getAttribute('data-type');
-        var period = elements[i].getAttribute('data-period');
-        if (toRotate) {
-          new TxtType(elements[i], JSON.parse(toRotate), period);
-        }
-    }
-};
+
+
+
+
+
+
