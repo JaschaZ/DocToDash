@@ -276,7 +276,6 @@ a:focus {
 /* about section */
 .about_section {
   background-color: #E0F9E6;
-
 }
 
 .about_section .row {
@@ -299,6 +298,11 @@ section.practice_section.layout_padding {
   background-color: #e6f9ff;
   height: 100vh;
   width: 100vw;
+}
+
+.key_features_heading {
+  margin-left: 5%;
+  align-items: left;
 }
 
 .practice_container {
@@ -364,19 +368,19 @@ section.practice_section.layout_padding {
 /* What makes us special */
 .welcome_section {
   background-color: #E0F9E6;
+  display: flexible;
+  position: relative;
 }
 
 .special_container{
   width: 100%;
-}
-
-.comparison_container {
-  width:100%;
-  padding: 100px 10%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  padding-top: 2.5%;
 }
 
 .comparison_title {
-
+  display: inline-block;
 }
 
 .comparison_table {
@@ -449,13 +453,14 @@ section.p-0.md-p-5 {
 .who-are-we {
   display: flex;
   width: 50%;
-  margin-top: 30px;
+  margin-top: 2.5%;
+  margin-left: 2.5%;
   align-items: top;
+  text-align: left;
   
 }
 
 .who.aos-init.aos-animate {
-  text-align: center;
 }
 
 a.block.no-underline.p-5 br-8.hover-bg-indigo-lightest-10.hover-scale-up-1.ease-300 {
