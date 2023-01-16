@@ -257,19 +257,14 @@ a:focus {
   top: initial;
   bottom: -100px;
 }
-
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
   background-color: #f5fffa;
 }
-
-
-
 .carousel-control-prev {
   background-image: url(../images/left-arrow.png);
   left: 45px;
 }
-
 .carousel-control-next {
   background-image: url(../images/right-arrow.png);
   left: 95px;
@@ -302,6 +297,8 @@ a:focus {
 
 section.practice_section.layout_padding {
   background-color: #e6f9ff;
+  height: 100vh;
+  width: 100vw;
 }
 
 .practice_container {
