@@ -18,6 +18,12 @@ h4 {
   color: #13464a;
 }
 
+p.solid {
+  border-style: solid;
+  border-color: #ffffff
+  border-width: thick
+}
+
 p {
   color: #13464a;
 }
@@ -92,7 +98,7 @@ p {
 }
 
 .parallax {
-  background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(/images/Hintergrundoption_6.jpeg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.2)), url(/images/Hintergrundoption_6.jpeg);
   height: 100vh;
   background-size: cover;
   background-position: center; 
@@ -508,6 +514,35 @@ div.w-100pc.md-w-33pc.p-10 {
 
 /* end who we are section */ 
 
+/*Begin contact section*/
+
+.parallax_2 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url(/images/Hintergrundoption_6.jpeg);
+  height: 80vh;
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+}
+
+.typewriter-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typewrite {
+  font-size: 4em;
+}
+
+.wrap {
+  border-right: 0.08em solid #fff
+}
+
+
+/*End contact Section*/
+
 
 /* info section */
 .info_section {
@@ -578,7 +613,6 @@ div.w-100pc.md-w-33pc.p-10 {
 }
 
 /* end info section */
-
 
 
 /* footer section*/

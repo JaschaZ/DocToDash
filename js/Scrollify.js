@@ -3,7 +3,7 @@ $.scrollify({
     sectionName : "section-name",
     interstitialSection : "",
     easing: "easeOutExpo",
-    scrollSpeed: 1100,
+    scrollSpeed: 600,
     offset : 0,
     scrollbars: true,
     standardScrollElements: "",
