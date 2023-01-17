@@ -279,7 +279,7 @@ end header section */
 
 @media screen and (max-width: 600px) {
   .hero_section-container {
-    font-size: 10vw;
+    font-size: 5vw;
   }
 } 
 
@@ -610,9 +610,9 @@ end who we are section */
   border-right: 0.08em solid #13464a
 }
 
-@media screen and (max-width: 600px) {
-  .contact {
-    font-size: 10vw;
+@media screen and (max-width: 700px) and (orientation: portrait) {
+  .typewrite {
+    font-size: 15vw;
   }
 } 
 
