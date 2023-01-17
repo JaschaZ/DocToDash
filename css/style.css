@@ -279,7 +279,7 @@ end header section */
 
 @media screen and (max-width: 700px) and (orientation: portrait) {
   .hero_section-container {
-    font-size: 3vw;
+    font-size: 5vw;
   }
 } 
 
@@ -612,7 +612,7 @@ end who we are section */
 
 @media screen and (max-width: 700px) and (orientation: portrait) {
   .typewrite {
-    font-size: 7vw;
+    font-size: 6.5vw;
   }
 } 
 
