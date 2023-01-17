@@ -197,29 +197,6 @@ end header section */
   justify-content: center;
 }
 
-.number-container {
-  position: absolute;
-  top: 34%;
-
-  left: 4%;
-}
-
-.number-container .number-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #19543E;
-}
-
-.number-container .number-box hr {
-  border: none;
-  width: 2px;
-  height: 125px;
-  background-color: #19543E;
-  margin: 35px 0;
-}
-
 .hero_section-container .hero_img-box {
   width: 42%;
 }
@@ -279,7 +256,11 @@ end header section */
 
 @media screen and (max-width: 700px) and (orientation: portrait) {
   .hero_section-container {
-    font-size: 4vw;
+    font-size: 3.9vw;
+  }
+
+  .hero_detail-container {
+    font-size: 10vw;
   }
 } 
 
