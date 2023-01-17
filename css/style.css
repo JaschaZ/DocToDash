@@ -460,6 +460,15 @@ tr {
   background-size: cover;
   background-position: center;
 }
+
+@media screen and (max-width: 600px) and (orientation: portrait) {
+
+  table {
+    font-size: 4vw;
+  }
+  
+} 
+
 /* ----------------------------------------------------------------------------------------------------------------------------
 End what makes us special */ 
 
