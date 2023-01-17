@@ -582,7 +582,7 @@ end who we are section */
 
 .parallax_2 {
   background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url(/images/Hintergrundoption_6.jpeg);
-  height: 80vh;
+  height: 100%;
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
@@ -597,13 +597,18 @@ end who we are section */
 }
 
 .typewrite {
-  font-size: 5vw;
+  font-size: 4.3vw;
 }
 
 .wrap {
   border-right: 0.08em solid #13464a
 }
 
+@media screen and (max-width: 600px) {
+  .contact {
+    font-size: 8vw;
+  }
+} 
 
 
 /* ------------------------------------------------------------------------------------------------------------------------------------
