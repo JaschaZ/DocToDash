@@ -576,6 +576,10 @@ end who we are section */
 /* Begin contact section
 ---------------------------------------------------------------------------------------------------------------------------------------------- */
 
+.contact {
+  height: 80vh;
+}
+
 .parallax_2 {
   background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url(/images/Hintergrundoption_6.jpeg);
   height: 80vh;
@@ -593,24 +597,14 @@ end who we are section */
 }
 
 .typewrite {
-  font-size: 4em;
+  font-size: 5vw;
 }
 
 .wrap {
   border-right: 0.08em solid #13464a
 }
 
-@media screen and (max-width: 500px) {
-  .contact {
-    font-size: 7px;
-  }
-}
 
-@media screen and (max-width: 600px) {
-  .contact {
-    font-size: 9px;
-  }
-}
 
 /* ------------------------------------------------------------------------------------------------------------------------------------
 End contact Section */
