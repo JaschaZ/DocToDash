@@ -553,7 +553,7 @@ div.w-100pc.md-w-33pc.p-10 {
 @media screen and (max-width: 600px) and (orientation: portrait) {
 
   .team-container {
-    justify-content: center;
+    display: inline;
   }
 
   .who-are-we {
