@@ -18,7 +18,6 @@ h4 {
   color: #13464a;
 }
 
-
 p.solid {
   border-style: solid;
   border-color: #ffffff
@@ -88,8 +87,9 @@ p {
 
 
 
+/* header section
+--------------------------------------------------------------------------------------------------------------------------------------- */
 
-/*header section*/
 .top_container {
   font-family: 'Poppins', sans-serif;
   background-color: #e6f9ff;
@@ -180,9 +180,15 @@ a:focus {
   background-size: 55px;
 }
 
-/*end header section*/
+/* --------------------------------------------------------------------------------------------------------------- 
+end header section */
 
-/* hero section */
+
+
+
+/* hero section 
+----------------------------------------------------------------------------------------------------------------- */
+
 .hero_section-container {
   width: 100%;
   position: absolute;
@@ -272,9 +278,15 @@ a:focus {
 } 
 */
 
-/* end hero section */
+/* ---------------------------------------------------------------------------------------------------------------------------
+end hero section */
 
-/* about section */
+
+
+
+/* about section 
+---------------------------------------------------------------------------------------------------------------------------- */
+
 .about_section {
   background-color: #E0F9E6;
 }
@@ -291,14 +303,26 @@ a:focus {
   margin: 45px 0;
 }
 
-/* end about section */
+/* ------------------------------------------------------------------------------------------------------------------------------
+end about section */
 
-/* Key Features */
 
-section.practice_section.layout_padding {
+
+
+/* Key Features 
+-------------------------------------------------------------------------------------------------------------------------------- */
+
+.key_features_section {
   background-color: #e6f9ff;
+}
+
+.key_features {
   min-height: 100vh;
   min-width: 100vw;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
 }
 
 .key_features_heading {
@@ -342,7 +366,6 @@ section.practice_section.layout_padding {
 
 }
 
-
 .practice_box h4 {
   margin-top: 15px;
 }
@@ -363,21 +386,27 @@ section.practice_section.layout_padding {
   font-weight: bold;
 }
 
-/* end key features section */
+/* ----------------------------------------------------------------------------------------------------------------------
+end key features section */
 
 
-/* What makes us special */
+
+
+/* What makes us special 
+------------------------------------------------------------------------------------------------------------------------ */
+
 .welcome_section {
   background-color: #E0F9E6;
-  display: flexible;
+  display: flex;
   position: relative;
 }
 
 .special_container{
   width: 100%;
   padding-left: 5%;
-  padding-bottom: 5%;
+  padding-right: 5%;
   padding-top: 2.5%;
+  padding-bottom: 2.5%;
 }
 
 .comparison_title {
@@ -433,10 +462,14 @@ tr {
   background-size: cover;
   background-position: center;
 }
-/*End comparison table*/ 
+/* ----------------------------------------------------------------------------------------------------------------------------
+End what makes us special */ 
 
 
-/* Begin Who we are section */
+
+
+/* Begin Who we are section 
+-------------------------------------------------------------------------------------------------------------------------------- */
 
 section.p-0.md-p-5 {
   margin: auto;
@@ -519,9 +552,14 @@ div.w-100pc.md-w-33pc.p-10 {
   }
 } 
 
-/* end who we are section */ 
+/* -------------------------------------------------------------------------------------------------------------------------------------------
+end who we are section */ 
 
-/*Begin contact section*/
+
+
+
+/* Begin contact section
+---------------------------------------------------------------------------------------------------------------------------------------------- */
 
 .parallax_2 {
   background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url(/images/Hintergrundoption_6.jpeg);
@@ -559,10 +597,14 @@ div.w-100pc.md-w-33pc.p-10 {
   }
 }
 
-/*End contact Section*/
+/* ------------------------------------------------------------------------------------------------------------------------------------
+End contact Section */
 
 
-/* info section */
+
+
+/* info section 
+---------------------------------------------------------------------------------------------------------------------------------------- */
 .info_section {
   padding-top: 100px;
   padding-bottom: 1px;
@@ -630,10 +672,14 @@ div.w-100pc.md-w-33pc.p-10 {
   }
 }
 
-/* end info section */
+/* ------------------------------------------------------------------------------------------------------------------------------------------
+end info section */
 
 
-/* footer section*/
+
+
+/* footer section
+---------------------------------------------------------------------------------------------------------------------------------------------- */
 
 .footer_section {
   background-color: #fdfdfe;
@@ -651,4 +697,5 @@ div.w-100pc.md-w-33pc.p-10 {
   color: #000;
 }
 
-/* end footer section*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------
+end footer section */
