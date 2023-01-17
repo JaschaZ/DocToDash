@@ -258,10 +258,6 @@ end header section */
   .hero_section-container {
     font-size: 3.9vw;
   }
-
-  .hero_detail-container {
-    font-size: 10vw;
-  }
 } 
 
 /* ---------------------------------------------------------------------------------------------------------------------------
@@ -548,9 +544,24 @@ div.w-100pc.md-w-33pc.p-10 {
   text-align: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) and (orientation: portrait) {
   .text {
     font-size: 12px;
+  }
+} 
+
+@media screen and (max-width: 600px) and (orientation: portrait) {
+  .team-container {
+    justify-content: center;
+  }
+
+  .who-are-we {
+    display: flex;
+    width: 50%;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    align-items: top;
+    text-align: left;
   }
 } 
 
