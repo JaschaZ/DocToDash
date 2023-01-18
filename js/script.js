@@ -1,3 +1,7 @@
+/*
+Observed Element Tracker, for JS to see what the viewer sees
+*/
+
 let animationStarted = false;
 const observedElement = document.querySelector('.typewrite');
 const observer = new IntersectionObserver((entries) => {
@@ -15,8 +19,6 @@ const observer = new IntersectionObserver((entries) => {
 });
 observer.observe(observedElement);
 
-
-
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -28,10 +30,16 @@ var TxtType = function(el, toRotate, period) {
     this.stop();
 };
 
+/*
+Observed Element Tracker, for JS to see what the viewer sees
+*/
 
 
 
 
+/*
+Contact Typing animation. Only plays once and only plays when the viewer sees it 
+*/
 
 TxtType.prototype.tick = function() {
     var i = this.loopNum % this.toRotate.length;
@@ -67,9 +75,38 @@ TxtType.prototype.tick = function() {
     }, delta);
 };
 
+/*
+Contact Typing animation. Only plays once and only plays when the viewer sees it 
+*/
 
+/*
+UP Arrow animation at the Bottom of the page. Works together with both html and css. hover over icon to make it interactive
+*/
 
+upInteractive = false;
 
+function autoToggle() {
+  $('.arrow').toggleClass('auto');
+}
+
+$('.arrow').hover(function() {
+  upInteractive = true;
+  $('.arrow').removeClass('auto');
+});
+
+setInterval(function(){ 
+  
+  console.log(upInteractive);
+  
+  if(upInteractive === false) {
+    autoToggle();
+  }
+
+},2000);
+
+/*
+UP Arrow animation at the Bottom of the page. Works together with both html and css 
+*/
 
 
 

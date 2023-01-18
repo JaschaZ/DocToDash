@@ -2,13 +2,17 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #13464a;
   background-color: #e6f9ff;
-  overflow-x: hidden;
 }
 
 html {
   scroll-behavior: smooth;
   scroll-behavior-timing-function: ease-in-out;
   scroll-behavior-duration: 2s; 
+  width 100%;
+  height: 100%;
+  margin: 0px;
+  paddiing: 0px;
+  overflow-x: hidden;
 }
 
 h1,
@@ -790,25 +794,6 @@ end who we are section */
   }
 } 
 
-/* Hover Effect over Contact - https://codepen.io/t_afif/pen/JjrNroB */ 
-
-.hover_underscore {
-  --c:linear-gradient(#13464a 0 0); /* update the color here */
-  
-  padding-bottom: .15em;
-  background: var(--c), var(--c);
-  background-size: 0 .1em;
-  background-position:50% 100%;
-  background-repeat: no-repeat;
-  transition: .3s linear, background-size .3s .2s linear;
-}
-.hover_underscore:hover {
-  background-size: 40% .1em;
-  background-position: 10% 100%, 90% 100%;
-}
-
-/* Hover Effect over Contact */
-
 /* ------------------------------------------------------------------------------------------------------------------------------------
 End contact Section */
 
@@ -910,4 +895,290 @@ end info section */
 }
 
 /* -----------------------------------------------------------------------------------------------------------------------------------------------
+
 end footer section */
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Animations
+-------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* 
+Hover Effect over Contact - https://codepen.io/t_afif/pen/JjrNroB - Works like this: <div class="hover_underscore">Content</div>
+*/ 
+
+.hover_underscore {
+  --c:linear-gradient(#13464a 0 0); /* update the color here */
+  
+  padding-bottom: .15em;
+  background: var(--c), var(--c);
+  background-size: 0 .1em;
+  background-position:50% 100%;
+  background-repeat: no-repeat;
+  transition: .3s linear, background-size .3s .2s linear;
+}
+.hover_underscore:hover {
+  background-size: 40% .1em;
+  background-position: 10% 100%, 90% 100%;
+}
+
+/* 
+Hover Effect over Contact
+*/
+
+
+
+
+/*
+Up arrow works together with html and js DOES NOT WORK YET BECAUSE SCSS - NEED TO IMPORT - https://codepen.io/WithAnEs/pen/xxgpOV
+*/
+/*
+@import "compass/css3";
+
+$back: #333;
+$color: #b3c33a;
+$speed: 1s;
+
+@import url(https://fonts.googleapis.com/css?family=Lato:700);
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -30px;
+  margin-left: -60px;
+  display: inline-block;
+  font-size: 26px;
+  color: $color;
+  text-align: center;
+  width: 120px;
+  height: 60px;
+  line-height: 60px;
+  border: 5px solid $color;
+  overflow: hidden;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: width $speed*.5 ease-in-out,
+              margin $speed*.5 ease-in-out,
+              border-radius $speed*.25 ease-in-out,
+              color $speed*.25 ease-in-out;
+  &:hover, &.auto {
+    width: 60px;
+    margin-left: -30px;
+    border-radius: 40px;
+    color: rgba($color, 0);
+    transition: width $speed*.5 ease-in-out,
+                margin $speed*.5 ease-in-out,
+                border-radius $speed.25 ease-in-out,
+                color $speed*.25 ease-in-out $speed*.25;
+    &:before {
+      animation: lineUp $speed cubic-bezier(0.0, 0.6, 1.0, 0.4) infinite .5s;
+    }
+    &:after {
+      animation: tipUp $speed cubic-bezier(0.0, 0.6, 1.0, 0.4) infinite .5s;
+    }
+  }
+  &:before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    background: $color;
+    width: 5px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    margin-top: -8px;
+    margin-left: -3px;
+    transform: translateY(50px);
+  }
+  &:after {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    color: $color;
+    border-top: 5px solid;
+    border-left: 5px solid;
+    transform: rotateZ(45deg);
+    top: 50%;
+    left: 50%;
+    margin-top: -6px;
+    margin-left: -13px;
+    transform: translateY(50px) rotateZ(45deg);
+  }
+}
+
+@keyframes tipUp {
+  0%   { transform: translateY(50px) rotateZ(45deg); }
+  100%   { transform: translateY(-70px) rotateZ(45deg); }
+}
+
+@keyframes lineUp {
+  0%   { transform: translateY(50px); }
+  100%   { transform: translateY(-70px); }
+}
+*/
+/*
+Up arrow works together with html and js. for use do this: <span class="arrow">up</span>
+*/
+
+
+
+/*
+Tile hover multi button, displays a button next to the element. Want to use it to copy E-Mail-Adress. NOT YET WORKING BECAUSE SCSS - NEED TO IMPORT - https://codepen.io/z-/pen/WNbMjEW
+*/
+/*
+body {
+  display:grid;
+  grid-template-columns: repeat( auto-fill, minmax(16rem, 1fr) );
+  grid-gap: 5rem;
+  padding:5rem;
+  background:#F5F7FA;
+  .card {
+      --background:#FFFFFF;
+      --text:black;
+      position: relative;
+      height:12rem;
+      box-shadow:0 0 2rem -1rem rgba(0,0,0,.05);
+      .multi-button {
+          z-index:0;
+          position: absolute;
+          top:1.25rem;
+          left:1.25rem;
+          border-radius:100%;
+          width:0rem;
+          height:0rem;
+          transform: translate(-50%, -50%);
+          transition: .25s cubic-bezier(0.25, 0, 0, 1);
+          button {
+              display: grid;
+              place-items: center;
+              position: absolute;
+              width:2rem;
+              height:2rem;
+              border:none;
+              border-radius:100%;
+              background:var(--background);
+              color:var(--text);
+              transform: translate(-50%, -50%);
+              cursor: pointer;
+              transition: .25s cubic-bezier(0.25, 0, 0, 1);
+              box-shadow:0 0 0rem -.25rem var(--background);
+              &:hover {
+                  background:var(--text);
+                  color:var(--background);
+                  box-shadow:0 0 1rem -.25rem var(--background);
+              }
+              &:first-child:nth-last-child(1) { //If there is 1 child
+                  left:25%;
+                  top:25%;
+              }
+              &:first-child:nth-last-child(2),
+              &:first-child:nth-last-child(2) ~ * { //If there are 2 children
+                  &:nth-child(1) {
+                      left:37.5%;
+                      top:18.75%;
+                  }
+                  &:nth-child(2) {
+                      left:18.75%;
+                      top:37.5%;
+                  }
+              }
+              &:first-child:nth-last-child(3),
+              &:first-child:nth-last-child(3) ~ * { //If there are 3 children
+                  &:nth-child(1) {
+                      left:50%;
+                      top:15.625%;
+                  }
+                  &:nth-child(2) {
+                      left:25%;
+                      top:25%;
+                  }
+                  &:nth-child(3) {
+                      left:15.625%;
+                      top:50%;
+                  }
+              }
+              &:first-child:nth-last-child(4), //If there are 4 children, if first child is also 4th item from bottom get self, and
+              &:first-child:nth-last-child(4) ~ * { //If there are 4 children, if first child is also 4th item from bottom get siblings
+                  &:nth-child(1) {
+                      left:62.5%;
+                      top:18.75%;
+                  }
+                  &:nth-child(2) {
+                      left:37.5%;
+                      top:18.75%;
+                  }
+                  &:nth-child(3) {
+                      left:18.75%;
+                      top:37.5%;
+                  }
+                  &:nth-child(4) {
+                      left:18.75%;
+                      top:62.5%;
+                  }
+              }
+          }
+      }
+      .container {
+          position: absolute;
+          width:100%;
+          height:100%;
+          border-radius:1rem;
+          background:var(--background);
+          color:var(--text);
+      }
+      &:hover .multi-button, .multi-button:focus-within { //Hover or a button inside is focused
+          width:10rem;
+          height:10rem;
+      }
+  }
+}
+*/
+/*
+Tile hover multi button, displays a button next to the element. Want to use it to copy E-Mail-Adress. NOT YET WORKING BECAUSE SCSS - NEED TO IMPORT - https://codepen.io/z-/pen/WNbMjEW
+*/
+
+
+
+/*
+Mouse hovering over Text and marks it works like this: <h9>Hover Me</h9>  Link: https://codepen.io/argyleink/pen/poEjvpd
+*/
+
+h9::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+h9:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+h9::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: hsl(200 100% 80%);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+h9 {
+  position: relative;
+  font-size: 5rem;
+}
+
+/*
+Mouse hovering over Text and marks it 
+*/
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------
+End Animations */
