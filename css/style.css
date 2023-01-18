@@ -85,6 +85,29 @@ p {
   align-items: center;
 }
 
+@media screen and (max-width: 700px) and (orientation: portrait) {
+  h1 {
+    font-size: 8vw;
+  }
+
+  h2 {
+
+  }
+  
+  h3 {
+    font-size: 6vw;
+  }
+
+  h4 {
+    font-size: 4vw;
+  }
+
+  p {
+    font-size: 3.5vw;
+  }
+}
+
+
 
 
 /* header section
@@ -257,8 +280,10 @@ end header section */
 @media screen and (max-width: 700px) and (orientation: portrait) {
   .hero_section-container {
     font-size: 3.9vw;
+    width: 100vw;
+    position: static;
   }
-} 
+}
 
 /* ---------------------------------------------------------------------------------------------------------------------------
 end hero section */
@@ -384,6 +409,12 @@ end about section */
   font-weight: bold;
 }
 
+@media screen and (max-width: 600px) and (orientation: portrait) {
+
+
+
+} 
+
 /* ----------------------------------------------------------------------------------------------------------------------
 end key features section */
 
@@ -464,13 +495,13 @@ tr {
 
 @media screen and (max-width: 600px) and (orientation: portrait) {
 
-  table {
-    font-size: 2.8vw;
-  }
+  .comparison_table {
 
-  th, td {
-    padding:1vh;
-  }
+    th, td {
+      padding: 0.8vh;
+    }
+
+}
 
 } 
 
