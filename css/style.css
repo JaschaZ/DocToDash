@@ -764,9 +764,9 @@ end who we are section */
   background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url(/images/Hintergrundoption_6.jpeg);
   height: 100%;
   background-size: cover;
-  background-position: center; 
+  background-position: top center; 
   background-repeat: no-repeat;
-  background-attachment:fixed;
+  background-attachment: fixed;
 }
 
 .typewriter-container {
