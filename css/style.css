@@ -465,7 +465,7 @@ tr {
 @media screen and (max-width: 600px) and (orientation: portrait) {
 
   table {
-    font-size: 4vw;
+    font-size: 6w;
   }
 
   th, td {
