@@ -142,6 +142,11 @@ nav.navbar.navbar-expand-lg {}
   text-transform: uppercase;
 }
 
+.navbar-collapse.collapse.show {
+  Opacity: 1;
+  background-color: #E0F9E6;
+}
+
 
 
 a,
