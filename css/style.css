@@ -468,6 +468,10 @@ tr {
     font-size: 4vw;
   }
 
+  th, td {
+    padding: 1vh;
+  }
+
 } 
 
 @media screen and (orientation: portrait) {
