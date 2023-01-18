@@ -341,9 +341,9 @@ end about section */
 
 .key_features {
   min-height: 100vh;
-  min-width: 100vw;
-  padding-left: 5%;
-  padding-right: 5%;
+  width: 100vw;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
   padding-top: 2.5%;
   padding-bottom: 2.5%;
 }
@@ -363,14 +363,14 @@ end about section */
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 200px 15px 0 15px;
+  margin: 2vh 1vw 0 1vw;
   transform: translateY(0);
   transition: all .7s;
-  padding-bottom: 50px;
+  padding-bottom: 5%;
 }
 
 .practice_box:hover {
-  transform: translateY(-150px);
+  transform: translateY(-15%);
   cursor: pointer;
 }
 
@@ -382,23 +382,23 @@ end about section */
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 225px;
-  height: 295px;
-  border-radius: 90px;
+  width: 22.5vw;
+  height: 29.5vh;
+  border-radius: 9vw;
   background-color: #363636;
 
 }
 
 .practice_box h4 {
-  margin-top: 15px;
+  margin-top: 1.5%;
 }
 
 .practice_img-box img {
-  width: 120px;
+  width: 12vw;
 }
 
 .practice_detail p {
-  margin-bottom: 55px;
+  margin-bottom: 5.5%;
   text-align: center;
 }
 
@@ -409,9 +409,45 @@ end about section */
   font-weight: bold;
 }
 
+
+
 @media screen and (max-width: 600px) and (orientation: portrait) {
 
+  .practice_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vh 1vw 0 1vw;
+    transform: translateY(0);
+    transition: all .7s;
+    padding-bottom: 5%;
+    width: 25vw;
+    text-align: center;
+  }
 
+  .key_features {
+    min-height: 100vh;
+    width: 100vw;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+  }
+
+  .practice_img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5vw;
+    height: 15vh;
+    border-radius: 9vw;
+    background-color: #363636;
+  
+  }
+
+  .practice_img-box img {
+    width: 12vw;
+  }
 
 } 
 
@@ -462,8 +498,10 @@ th, td {
   padding: 2.1vh;
 }
 
+
 th:first-child, td:first-child {
   text-align: left;
+  width: 70%;
 }
 
 /* Style table rows */
@@ -499,6 +537,10 @@ tr {
 
     th, td {
       padding: 0.8vh;
+    }
+
+    th:first-child, td:first-child {
+      text-align: left;
     }
 
 }
