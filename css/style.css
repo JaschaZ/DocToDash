@@ -788,6 +788,24 @@ end who we are section */
   }
 } 
 
+/* Hover Effect over Contact - https://codepen.io/t_afif/pen/JjrNroB */ 
+
+.hover_underscore {
+  --c:linear-gradient(#13464a 0 0); /* update the color here */
+  
+  padding-bottom: .15em;
+  background: var(--c), var(--c);
+  background-size: .3em .1em;
+  background-position:50% 100%;
+  background-repeat: no-repeat;
+  transition: .3s linear, background-size .3s .2s linear;
+}
+.hover_underscore:hover {
+  background-size: 40% .1em;
+  background-position: 10% 100%, 90% 100%;
+}
+
+/* Hover Effect over Contact */
 
 /* ------------------------------------------------------------------------------------------------------------------------------------
 End contact Section */
