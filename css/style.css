@@ -143,11 +143,14 @@ nav.navbar.navbar-expand-lg {}
 }
 
 .navbar-collapse.collapse.show {
-  Opacity: 1;
-  background-color: #E0F9E6;
+
 }
 
-
+.navbar-collapse.collapse.show .nav_overlay {
+  background-color: #e6f9ff;
+  width: 100%;
+  opacity: 0.6;
+}
 
 a,
 a:hover,
