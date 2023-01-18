@@ -795,7 +795,7 @@ end who we are section */
   
   padding-bottom: .15em;
   background: var(--c), var(--c);
-  background-size: .3em .1em;
+  background-size: 0 .1em;
   background-position:50% 100%;
   background-repeat: no-repeat;
   transition: .3s linear, background-size .3s .2s linear;
