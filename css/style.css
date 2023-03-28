@@ -506,6 +506,20 @@ end about section */
   font-weight: bold;
 }
 
+.key_features_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.key_features_text h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
 
 @media screen and (max-width: 600px) and (orientation: portrait) {
 
