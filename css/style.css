@@ -486,22 +486,6 @@ end about section */
 
 }
 
-.key_features_text {
-  text-align: center;
-  line-height: 1.2;
-}
-
-.key_features_text br {
-  display: none;
-}
-
-.key_features_text:after {
-  content: "& Management";
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 5px;
-}
-
 .practice_box h4 {
   margin-top: 15px;
 }
