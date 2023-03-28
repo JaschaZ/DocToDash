@@ -514,13 +514,6 @@ end about section */
   text-align: center;
 }
 
-.key_features_text h4 {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-
-
 @media screen and (max-width: 600px) and (orientation: portrait) {
 
   .practice_box {
